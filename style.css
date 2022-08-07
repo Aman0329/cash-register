@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.heading{
+    text-align: center;
+    background-color:lightblue;
+    
+
+}
+.paragraph{
+color:blue;
+text-align: center;
+margin: 10px;
+font-size: larger;
+font-weight: bold;
+}
+.label{
+    color:blueviolet;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    margin: 15px;
+}
+#bill{
+    border:2px solid blue;
+    margin-left: 42%;
+    border-radius: 8px;
+   width: 18%;
+   font-size: larger;
+
+}
+#cash{
+    border:2px solid rgb(5, 5, 240);
+    margin-left: 42%;
+    border-radius: 8px;
+    width: 18%;
+    font-size: larger;
+}
+.btn{
+    font-size: large;
+    border: 2px solid blue;
+    color:white;
+    background-color: #0000ff;
+    margin: 22px 0px 2px 588px;
+    border-radius: 5px;
+    width: 8%;
+    height: 4%;
+    cursor: pointer;
+
+}
+.caption{
+    text-align: center;
+    margin-top: 100px;
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+}
+.table{
+    border: 2px solid blueviolet;
+    color: blue;
+}
+table tr{
+    font-size: large;
+    margin: 15px 0px 15px 0px;
+}
