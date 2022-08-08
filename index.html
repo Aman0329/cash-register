@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CASH-REGISTER</title>
     <link rel="stylesheet" href="style.css">
+   
 </head>
 <body>
     <h1 class="heading">
@@ -14,24 +15,33 @@
     <p class="paragraph">
         Enter the bill amount and cash given by the customer and know minimum number of notes to return.
     </p>
-    <div class="label"><label for="bill"></label>Bill Amount:</div>
-    <div class="input">
-    <input id="bill" type="text" name="bill">
-    </div>
+   <div class="label"> <label for="bill"></label>Bill Amount:</div>
+   
+    <input type="text" name="bill" id="bill">
     <div class="label"> <label for="cash"></label>Cash Amount:</div>
-    <div class="input">
+    <div class="text">
   <input type="text" name="cash" id="cash">
+    </div>
+    <div class="message">
+        
     </div>
     <button class="btn">CHECK</button>
     <div class="caption"><CAption>RETURN CHANGE:</CAption></div>
     <div class="table">
         <table>
             <tr>
-                <th>No of Notes</th>
+                <th>No of Notes--</th>
+                <td class="notess"></td>
+                <td class="notess"></td>
+                <td class="notess"></td>
+                <td class="notess"></td>
+                <td class="notess"></td>
+                <td class="notess"></td>
+                <td class="notess"></td>
 
             </tr>
             <tr>
-                <th>Note</th>
+                <th>Note--</th>
                 <td class="notes">2000</td>
                 <td class="notes">500</td>
                 <td class="notes">100</td>
@@ -44,7 +54,7 @@
     </div>
 
 
-    
-<script src="script.js"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>

@@ -55,12 +55,32 @@ font-weight: bold;
     color: black;
     font-weight: bold;
     font-size: larger;
+    margin-bottom: 10px;
 }
 .table{
-    border: 2px solid blueviolet;
+    border: 2px solid lightblue;
     color: blue;
 }
 table tr{
     font-size: large;
     margin: 15px 0px 15px 0px;
+}
+.message{
+    text-align: center;
+    margin: 20px;
+    color: red;
+    font-size: 2rem;
+
+}
+.notes{
+
+    padding: 25px;
+    font-size: large;
+}
+.notess{
+    padding: 25px;
+    font-size: large;
+}
+table{
+    padding-left: 280px;
 }
