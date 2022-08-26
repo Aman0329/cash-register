@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "cash-register",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 4001
+	}
+}

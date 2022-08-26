@@ -1,6 +1,6 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 }
 .heading{
     text-align: center;
@@ -11,22 +11,23 @@
 .paragraph{
 color:blue;
 text-align: center;
-margin: 10px;
+margin: 1%;
 font-size: larger;
 font-weight: bold;
+width: 100%;
 }
 .label{
     color:blueviolet;
     text-align: center;
     font-size: larger;
     font-weight: bolder;
-    margin: 15px;
+    margin: 1.5%;
 }
 #bill{
     border:2px solid blue;
     margin-left: 42%;
-    border-radius: 8px;
-   width: 18%;
+    border-radius:8px;
+   max-width: 18%;
    font-size: larger;
 
 }
@@ -34,7 +35,7 @@ font-weight: bold;
     border:2px solid rgb(5, 5, 240);
     margin-left: 42%;
     border-radius: 8px;
-    width: 18%;
+    max-width: 18%;
     font-size: larger;
 }
 .btn{
@@ -42,45 +43,94 @@ font-weight: bold;
     border: 2px solid blue;
     color:white;
     background-color: #0000ff;
-    margin: 22px 0px 2px 588px;
+    margin: 2% 0% 2% 50%;
     border-radius: 5px;
-    width: 8%;
+    width:8%;
     height: 4%;
     cursor: pointer;
 
 }
 .caption{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 6%;
     color: black;
     font-weight: bold;
     font-size: larger;
-    margin-bottom: 10px;
+    margin-bottom: 1%;
 }
 .table{
     border: 2px solid lightblue;
     color: blue;
+    width: 100%;
 }
 table tr{
     font-size: large;
-    margin: 15px 0px 15px 0px;
+    margin: 1% 0% 1.5% 0%;
 }
 .message{
     text-align: center;
-    margin: 20px;
+    margin: 2%;
     color: red;
     font-size: 2rem;
 
 }
 .notes{
 
-    padding: 25px;
+    padding:20px;
     font-size: large;
 }
 .notess{
-    padding: 25px;
+    padding:20px;
     font-size: large;
 }
 table{
-    padding-left: 280px;
+    padding-left: 28%;
+}
+@media (max-width:920px) and (min-width:800px) {
+ table{
+    padding-left: 15%;
+   }
+}
+@media (max-width:800px){
+    table{
+        padding-left: 15%;
+
+    }
+    .notes{
+        padding: 5px;
+        font-size: small;
+    }
+    .notess{
+        padding: 5px;
+        font-size: small;
+    }
+    .btn{
+        font-size: small;
+
+    }
+}
+@media (max-width:600px){
+    .btn{
+        width: 15%;
+        font-size: small;
+        margin:2% 0% 0% 45% ;
+    }
+}
+@media (max-width:370px){
+    .btn{
+        width: 20%;
+        margin: 2% 0% 0% 40%;
+    }
+    .table{
+        margin-left: 1%;
+        width: 80vw;
+    }
+    .notes{
+        padding: 1%;
+        font-size: small;
+    }
+    .notess{
+        padding: 1%;
+        font-size: small;
+    }
 }
